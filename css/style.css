@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.header__nav-list {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(37, 63, 211, 0.788);
+    list-style-type: none;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.header__nav-item {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.header__nav {
+    flex-grow: 1;
+}
+.header__logo {
+    height: 85px;
+    width: 95px;
+}
+.container {
+    margin: 0px auto;
+}
+.header__slogan {
+    background-image: url(../images/background.jpg);
+    padding: 260px 156px;
+    width: 100%;
+    color: #d60d0d;
+    font-size: 36px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.main__galery {
+    padding-left: 40px;
+    padding-top: 10px;
+}
+.main__galary-item {
+    width: 500px;
+    height: 500px;
+}
+.main__p {
+    font-size: 30px;
+    padding: 10px 10px;
+    color: orangered;
+}
+.recept1{
+    width: 640px;
+    height: 426px;
+}
+.recept2 {
+    width: 640px;
+    height: 426px;
+}
+.recept3 {
+    width: 610px;
+    height: 426px;
+}
+.recept4 {
+    width: 640px;
+    height: 426px;
+}
+.recept5 {
+    width: 640px;
+    height: 426px;
+}
+.recept6 {
+    width: 610px;
+    height: 426px;
+}
+.main__verse-item {
+    padding: 15px 15px;
+    font-size: 25px;
+}
+.footer__card{
+    text-align: center;
+
+}
+.footer__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px 0px;
+    background-color: lightseagreen;
+    margin-top: 30px;
+}
+.footer__hash {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer__copy{
+    font-size: 20px;
+    font-weight: bold;
+}
